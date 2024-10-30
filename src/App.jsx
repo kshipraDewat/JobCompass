@@ -1,14 +1,13 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './App.css'
-import { Button } from "@/components/ui/button"
 import AppLayout from './layout/AppLayout'
 import Landing from './pages/Landing'
 import Onboarding from './pages/Onboarding'
 import SavedJobs from './pages/SavedJobs'
 import PostJobs from './pages/PostJobs'
-import JobListing from './pages/JobListing'
 import MyJobs from './pages/MyJobs'
 import Jobs from './pages/Jobs'
+import { ThemeProvider } from "./components/theme-provider";
 
 const router  = createBrowserRouter([
   {
@@ -49,10 +48,10 @@ const router  = createBrowserRouter([
 function App() {
 
   return (
-    <div className=' text-2xl '>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <RouterProvider router={router}/>
       
-    </div>
+      </ThemeProvider>
   )
 }
 
