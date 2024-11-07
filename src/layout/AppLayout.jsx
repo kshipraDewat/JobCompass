@@ -7,9 +7,12 @@ const AppLayout = () => {
   return (
     <div>
       <div className='grid-background '></div>
-      <main className=' min-h-screen container mx-auto flex flex-col justify-between '>
+      <main className=' min-h-screen container flex flex-col justify-between'>
+      <div>
       <Header/>
       <Outlet/>
+
+      </div>
       <Footer/>
       </main>
     </div>

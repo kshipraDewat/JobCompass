@@ -11,18 +11,6 @@ const Header = () => {
         <Link>
         <img src={logo} alt="" className='size-14'/>
         </Link>
-
-        
-        <SignedOut>
-        <SignInButton />
-      </SignedOut>
-      <SignedIn>
-        <UserButton/>
-      </SignedIn>
-       
-       
-       
-
       </nav>
        
     </div>
