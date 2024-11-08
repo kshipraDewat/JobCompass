@@ -9,6 +9,7 @@ import MyJobs from './pages/MyJobs'
 import Jobs from './pages/Jobs'
 import { ThemeProvider } from "./components/theme-provider";
 import ProtectedRoute from './components/ProtectedRoute'
+import JobListing from './pages/JobListing'
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
         path: '/jobs',
         element:
           <ProtectedRoute>
-            <Jobs />
+            <JobListing />
           </ProtectedRoute>
       },
       {
