@@ -8,7 +8,7 @@ import { BriefcaseBusiness, Heart, PenBox } from 'lucide-react';
 const Header = () => {
   const [showSignIn, setShowSignIn] = useState(false)
   const [search, setSearch] = useSearchParams()
-  const user = useUser()
+  const {user} = useUser()
   useEffect(() => {
     if (search.get('sign-in')) {
       setShowSignIn(true)
@@ -32,9 +32,9 @@ const Header = () => {
           </SignedOut>
           <SignedIn>
 
-           {user?.unsafeMetadata?.role === "recruiter" && (
-              <Link to="/post-job">
-              <Button variant='destructive' className='rounded-full'> <PenBox size={20} className='' /> Post a job</Button>
+           { user?.unsafeMetadata?.role === "recruiter" && (
+              <Link to="/postjobs">
+              <Button variant='destructive' className='rounded-full p-5'> <PenBox size={20} /> Post a job</Button>
               </Link>
             )}
 
