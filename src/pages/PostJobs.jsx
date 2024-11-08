@@ -2,7 +2,7 @@ import React from 'react'
 
 const PostJobs = () => {
   return (
-    <div>
+    <div className=' px-5'>
       PostJobs
     </div>
   )
