@@ -1,0 +1,26 @@
+[
+  {
+    "companyName": "google",
+    "companyLogo": "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=893&height=600&name=image8-2.jpg",
+    "jobRole": "frontend Developer",
+    "jobDescription": "We are seeking a talented and passionate Frontend developer to join our dynamic team. The ideal candidate will have a strong technical background, problem-solving skills, and the ability to collaborate in a fast-paced environment.",
+    "experience": "1",
+    "skills": "React.js"
+  },
+  {
+    "companyName": "Microsoft Design",
+    "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGKVY8ZT2LYhzntswZsiQfegGimAQOozs2_g&s",
+    "jobRole": "Ui/Ux developer",
+    "jobDescription": "We are seeking a talented and passionate Ui/Ux Developer to join our dynamic team. The ideal candidate will have a strong technical background, problem-solving skills, and the ability to collaborate in a fast-paced environment.",
+    "experience": "3",
+    "skills": "Figma, Adobe photoshop, illustrator, Canva"
+  },
+  {
+    "companyName": "Accenture",
+    "companyLogo": "https://media.licdn.com/dms/image/v2/D560BAQHbx0URQnbCKg/company-logo_200_200/company-logo_200_200/0/1719978199717/accentureindia_logo?e=2147483647&v=beta&t=JS33FiVe1veSqRUgvrZioSmlZYR8UbcCW8dFwfHN1KQ",
+    "jobRole": "Software Engineer",
+    "jobDescription": "We are seeking a talented and passionate Software Engineer to join our dynamic team. The ideal candidate will have a strong technical background, problem-solving skills, and the ability to collaborate in a fast-paced environment.",
+    "experience": "2",
+    "skills": "Java, ResfulApi , database management"
+  }
+]
